@@ -355,7 +355,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/block/_metatags.html.eex:3
 msgid "Block %{block_number} - %{subnetwork} Explorer"
-msgstr ""
+msgstr "Block PEA Explorer"
 
 #, elixir-format
 #: lib/block_scout_web/templates/block_transaction/404.html.eex:7
@@ -428,7 +428,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_footer.html.eex:22
 msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
-msgstr ""
+msgstr "Pea Explorer is a tool for inspecting and analyzing EVM based PEA blockchains."
 
 #, elixir-format
 #: lib/block_scout_web/templates/stakes/_stakes_top.html.eex:45
