@@ -116,7 +116,7 @@
           <% end %>
         <% end %>
         <%= if Application.get_env(:block_scout_web, BlockScoutWeb.ApiRouter)[:reading_enabled] || Application.get_env(:block_scout_web, :api_url) do %>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown" style="display:none;">
             <a href="#" role="button" id="navbarAPIsDropdown" class="nav-link topnav-nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="nav-link-icon">
                 <%= render BlockScoutWeb.IconsView, "_api_icon.html" %>
@@ -173,7 +173,7 @@
             </div>
           </li>
         <% end %>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown" style="display:none;">
           <a class="nav-link topnav-nav-link active-icon <%= if dropdown_nets() != [], do: "dropdown-toggle js-show-network-selector" %>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="nav-link-icon">
               <%= render BlockScoutWeb.IconsView, "_active_icon.html" %>
